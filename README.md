@@ -12,17 +12,18 @@ Control emulations: Seamlessly manage emulators (e.g., Game Boy ROMs via PyBoy) 
 
 Integrate parallel clusters: Connect with IPython Parallel (ipcluster) for automated test runs and batch evaluations.
 
-Plaintext
-+-----------------------+       MetaKernel Gateway       +------------------------+
-|   Jupyter Notebooks   |  -------------------------->   | PyBoy / Emulation /    |
-|   (Interactive UI)    |    (metakernel_python etc.)    | Microcontroller nodes  |
-+-----------------------+                                +------------------------+
-            |                                                         |
-            v                                                         v
-+-----------------------+                                +------------------------+
-|    nbconvert Batch    |                                |    Duino-Coin / IoT    |
-|   Automation Engine   |                                |    Monitoring Nodes    |
-+-----------------------+                                +------------------------+
+##
+##            +-----------------------+       MetaKernel Gateway       +------------------------+
+##            |   Jupyter Notebooks   |  -------------------------->   | PyBoy / Emulation /    |
+##            |   (Interactive UI)    |    (metakernel_python etc.)    | Microcontroller nodes  |
+##            +-----------------------+                                +------------------------+
+                        |                                                         |
+                        v                                                         v
+##            +-----------------------+                                +------------------------+
+##            |    nbconvert Batch    |                                |    Duino-Coin / IoT    |
+##            |   Automation Engine   |                                |    Monitoring Nodes    |
+##            +-----------------------+                                +------------------------+
+
 🚀 Quick Start
 1. Installation with Poetry
 Make sure Poetry is installed on your system. Clone the repository and synchronize dependencies:
