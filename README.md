@@ -8,12 +8,12 @@
       Integrate parallel clusters: Connect with IPython Parallel (ipcluster) for automated test runs and batch evaluations.
 
 ##
-##            +-----------------------+       MetaKernel Gateway       +------------------------+
-##            |   Jupyter Notebooks   |  -------------------------->   | PyBoy / Emulation /    |
-##            |   (Interactive UI)    |    (metakernel_python etc.)    | Microcontroller nodes  |
-##            +-----------------------+                                +------------------------+
-##                      |                                                         |
-##                      v                                                         v
+#            +-----------------------+       MetaKernel Gateway       +------------------------+
+#            |   Jupyter Notebooks   |  -------------------------->   | PyBoy / Emulation /    |
+#            |   (Interactive UI)    |    (metakernel_python etc.)    | Microcontroller nodes  |
+#            +-----------------------+                                +------------------------+
+                      |                                                         |
+                      v                                                         v
 ##            +-----------------------+                                +------------------------+
 ##            |    nbconvert Batch    |                                |    Duino-Coin / IoT    |
 ##            |   Automation Engine   |                                |    Monitoring Nodes    |
