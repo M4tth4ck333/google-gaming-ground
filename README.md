@@ -65,7 +65,7 @@ The script is intended to start the IPython cluster and run the project’s test
 ## 🧩 Using MetaKernel
 
 A custom kernel can extend `MetaKernel`. This minimal example is a starting point; add the project-specific execution and emulation logic where indicated:
-
+https://github.com/M4tth4ck333/kernel_gateway_demos#kernel-gateway-demos
 ```python
 from metakernel import MetaKernel
 
