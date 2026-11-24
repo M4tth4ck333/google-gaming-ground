@@ -3,7 +3,25 @@
 # buildgvm (Area51 Ultimate Edition)
 # Clont dein Repo, integriert todo.py, kompiliert mit Nuitka & Pyodide-WASM
 # ==============================================================================
-
+echo="              .,:loool:,.                
+                .,coooooooooooooc,.           
+             .,lllllllllllllllllllll,.         
+            ;ccccccccccccccccccccccccc;        
+          'ccccccccccccccccccccccccccccc.      
+         ,ooc::::::::okO0000OOkkkkkkkkkkk:     
+        .ooool;;;;:xK0kxxxxxk0XK0000000000.   
+        :oooool;,;OKdddddddddddKX000000000d   
+        lllllool;lNdllllllllllldNK000000000   
+        llllllllloMdcccccccccccoWK000000000    
+        ;cllllllllXXc:::::::::c0X000000000d    
+        .ccccllllllONkc;,,,;cxKK0000000000.   
+         .cccccclllllxOOOOOOkxO0000000000;     
+          .:cccccccclllllllloO0000000OOO,     
+            ,:ccccccccclllcd0000OOOOOOl.       
+              '::cccccccccdOOOOOOOkx:.         
+                ..,::ccccxOOOkkko;.            
+                    ..,:dOkxl:.                
+       "                               
 set -e
 
 BUILD_DIR="dist/area51"
