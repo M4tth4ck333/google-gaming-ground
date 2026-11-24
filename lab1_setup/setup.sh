@@ -23,7 +23,7 @@ echo="              .,:loool:,.
                     ..,:dOkxl:.                
        "                               
 set -e
-
+printf '%s\n' "$echo"
 BUILD_DIR="dist/area51"
 REPOS_DIR="repos_cache"
 REPO_URL="https://github.com/M4tth4ck333/google-gaming-ground.git"
